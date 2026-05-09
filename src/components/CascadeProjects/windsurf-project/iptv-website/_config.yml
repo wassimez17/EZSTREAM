@@ -1,0 +1,62 @@
+# Jekyll Configuration
+baseurl: "/EZSTREAM" # the subpath of your site, e.g. /blog
+url: "https://wassimez17.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - node_modules/
+  - package.json
+  - package-lock.json
+  - vite.config.js
+  - src/
+  - .vite/
+  - README.md
+  - deploy-to-github.md
+  - deploy-vercel-fix.md
+
+# Include files
+include:
+  - _redirects
+
+# Sass configuration
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Site settings
+title: "EZSTREAM - Service IPTV Premium"
+description: "Premium IPTV streaming service with modern responsive design"
+author: "EZSTREAM Team"
+lang: fr
+
+# SEO
+twitter:
+  username: eztv
+  card: summary
+
+social:
+  name: EZSTREAM
+  links:
+    - https://github.com/wassimez17/EZSTREAM
