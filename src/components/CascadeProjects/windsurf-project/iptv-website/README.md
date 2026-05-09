@@ -62,13 +62,13 @@ npm run preview
 
 ### Vercel (Recommended)
 1. Run `npm run build`
-2. Deploy the `dist/` folder to Vercel
+2. Deploy `dist/` folder to Vercel
 3. Set root directory to `dist/` in Vercel settings
 
 ### GitHub Pages
 1. Run `npm run build`
-2. Push the `dist/` folder to your repository
-3. Configure GitHub Pages to use the `dist/` folder as source
+2. Push `dist/` folder to your repository
+3. Configure GitHub Pages to use `dist/` folder as source
 
 ## File Structure for Static Deployment
 The project is configured for static hosting with the following key files:
