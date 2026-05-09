@@ -1,12 +1,13 @@
 {
-  "name": "eztv-iptv-website",
+  "name": "ezstream-iptv-website",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && echo 'Ready for deployment - upload dist/ folder to Vercel or GitHub Pages'"
   },
   "dependencies": {
     "react": "^18.2.0",
