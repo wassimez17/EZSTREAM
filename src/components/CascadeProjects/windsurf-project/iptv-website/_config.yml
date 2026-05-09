@@ -1,6 +1,6 @@
 # Jekyll Configuration
-baseurl: "/EZSTREAM" # the subpath of your site, e.g. /blog
-url: "https://wassimez17.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/EZSTREAM/src/components/CascadeProjects/windsurf-project/iptv-website" # the subpath of your site
+url: "https://wassimez17.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -21,6 +21,8 @@ exclude:
   - README.md
   - deploy-to-github.md
   - deploy-vercel-fix.md
+  - Gemfile
+  - Gemfile.lock
 
 # Include files
 include:
