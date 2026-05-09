@@ -28,12 +28,3 @@ Thumbs.db
 # Logs
 logs
 *.log
-
-# Jekyll
-.sass-cache/
-.jekyll-cache/
-_site/
-Gemfile.lock
-
-# Vite
-.vite/
